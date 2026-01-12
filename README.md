@@ -5,7 +5,9 @@ A React application featuring two interactive visualization and editing tools bu
 ## Features
 
 ### 1. Polygon Visualizer
+
 An interactive canvas-based polygon visualization tool that allows you to:
+
 - Visualize multiple polygons in real-time
 - Test point-in-polygon calculations with mouse movement
 - Edit polygon vertices by dragging them
@@ -13,7 +15,9 @@ An interactive canvas-based polygon visualization tool that allows you to:
 - Switch between Analyze and Edit modes
 
 ### 2. Port Template
+
 A hierarchical tree structure editor with the following capabilities:
+
 - **Editable Labels**: Click on any node label to edit it inline
 - **Read-only Toggle**: Mark nodes as read-only to prevent editing
 - **Add Nodes**: Add child nodes or root-level nodes
@@ -40,12 +44,14 @@ A hierarchical tree structure editor with the following capabilities:
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
-cd xyicon_assessment
+cd polygon-visualizer_and_port-template
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
@@ -53,6 +59,7 @@ npm install
 ### Development
 
 Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -62,6 +69,7 @@ The application will be available at `http://localhost:5173`
 ### Build
 
 Create a production build:
+
 ```bash
 npm run build
 ```
@@ -69,6 +77,7 @@ npm run build
 ### Preview
 
 Preview the production build:
+
 ```bash
 npm run preview
 ```
@@ -76,10 +85,10 @@ npm run preview
 ### Linting
 
 Run ESLint to check code quality:
+
 ```bash
 npm run lint
 ```
-
 
 ## Usage
 
@@ -101,11 +110,11 @@ npm run lint
 5. **Delete Nodes**: Click the trash icon to remove a node
 6. **Expand/Collapse**: Click the "+" or "−" button to expand/collapse nodes
 
-
 ## Development Notes
 
 - The project uses ESLint for code quality checks
 - All components are written in TypeScript for type safety
 - Styled-components are used throughout for consistent styling
 - The layout component provides shared navigation across all pages
+
 # polygon-visualizer_and_port-template
